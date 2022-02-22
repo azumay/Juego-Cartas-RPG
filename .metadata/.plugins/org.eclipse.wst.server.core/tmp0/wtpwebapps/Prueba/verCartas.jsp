@@ -78,7 +78,7 @@ if (total_paginas > 1) {
 	out.print(pagina);
 		else
 	//si el índice no corresponde con la página mostrada actualmente, coloco el enlace para ir a esa página
-	out.print(" <a href=verCartas.jsp?pagina=" + i + ">" + i + "</a> ");
+	out.print(" <span><a href=verCartas.jsp?pagina=" + i + ">" + i + "</a> </span>");
 	}
 }
 out.print("</div>");

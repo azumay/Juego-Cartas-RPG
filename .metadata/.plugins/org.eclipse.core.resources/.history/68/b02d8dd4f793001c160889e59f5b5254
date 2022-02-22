@@ -1,26 +1,18 @@
 @charset "UTF-8";
 
 /* ESTILOS VERCARTAS.JSP */
-#paginacion {
-	padding: 20px; 
-	color : #605e5e; 
-	font-weight : bold; 
-	background : white;
-	font-weight: bold;
-	background: white;
-	border-radius: 10px;
-	border: 2px solid black;
+#paginacion{
+	padding: 20px;
+	color: white;
 }
-
 #paginacion a {
-	color: #0f1111;
-	font-weight: 700;
-	border: 1px solid #0f1111;
-	padding-left: 11px;
-	padding-right: 11px;
-	margin: 20px;
+	color: white;
+	border: 1px solid;
+	background: black;
+	padding: 5px;
+	margin: 10px;
+	border-radius: 20px;
 }
-
 
 #container {
 	width: 100%;

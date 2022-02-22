@@ -6,9 +6,9 @@
 	color : #605e5e; 
 	font-weight : bold; 
 	background : white;
+	border : 2px solid black;
 	font-weight: bold;
 	background: white;
-	border-radius: 10px;
 	border: 2px solid black;
 }
 

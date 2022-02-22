@@ -1,27 +1,6 @@
 @charset "UTF-8";
 
 /* ESTILOS VERCARTAS.JSP */
-#paginacion {
-	padding: 20px; 
-	color : #605e5e; 
-	font-weight : bold; 
-	background : white;
-	font-weight: bold;
-	background: white;
-	border-radius: 10px;
-	border: 2px solid black;
-}
-
-#paginacion a {
-	color: #0f1111;
-	font-weight: 700;
-	border: 1px solid #0f1111;
-	padding-left: 11px;
-	padding-right: 11px;
-	margin: 20px;
-}
-
-
 #container {
 	width: 100%;
 	margin-bottom: 25px;
@@ -32,6 +11,7 @@
 	justify-content: center;
 	flex-wrap: wrap;
 	width: 95%;
+	
 }
 
 .contenedor-cartas {
@@ -41,8 +21,7 @@
 	padding: 20px;
 	background: #e9e4e1;
 }
-
-.img-article {
+.img-article{
 	text-align: center;
 }
 
@@ -83,6 +62,7 @@ body {
 	position: relative;
 	padding-bottom: 125px;
 	width: 100%;
+	
 }
 /* ESTILOS CASRTARANDOM.JSP */
 .demo {

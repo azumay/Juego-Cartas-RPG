@@ -2,13 +2,12 @@
 
 /* ESTILOS VERCARTAS.JSP */
 #paginacion {
-	padding: 20px; 
-	color : #605e5e; 
-	font-weight : bold; 
-	background : white;
+	padding: 20px; color : white; font-weight : bold; background : white;
+	border : 2px solid black;
+	font-weight: bold;
+	color: white;
 	font-weight: bold;
 	background: white;
-	border-radius: 10px;
 	border: 2px solid black;
 }
 
@@ -18,10 +17,9 @@
 	border: 1px solid #0f1111;
 	padding-left: 11px;
 	padding-right: 11px;
-	margin: 20px;
 }
 
-
+}
 #container {
 	width: 100%;
 	margin-bottom: 25px;
