@@ -36,7 +36,7 @@
 		<div class="capa1" id="opcion3">
 			<div id="texto" class="capa2">
 				<p>
-					<a href="verCartas.jsp?pagina=1">Ver Cartas
+					<a href="verCartas.jsp">Ver Cartas
 				</p>
 				</a>
 			</div>

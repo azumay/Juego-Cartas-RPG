@@ -35,18 +35,18 @@ ResultSet num_reg = null;
 int inicio;
 
 //Limito la busqueda
-int TAMANO_PAGINA = 8;
+int TAMANO_PAGINA = 2;
 
 //examino la página a mostrar y el inicio del registro a mostrar
 String pag = request.getParameter("pagina");
-int pagina = 0;
-if (pagina == 0) {
-	inicio = 0;
-	pagina = 1;
-} else {
-	inicio = (pagina - 1) * TAMANO_PAGINA;
-}
-
+	int pagina=Integer.parseInt(pag);
+	if (pagina==0) {
+	   	inicio = 0;
+	    pagina=1;
+	}
+	else {
+	    inicio = (pagina - 1) * TAMANO_PAGINA;
+	}
 /**
 //miro a ver el número total de campos que hay en la tabla con esa búsqueda
 **/
@@ -69,7 +69,7 @@ int total_paginas = (int) Math.ceil(((double) num_total_registros / TAMANO_PAGIN
 out.print("<p class='resultado'>Nombre de registres trobats: " + num_total_registros + "</p><br>");
 out.print("<p class='resultado'>Es mostren pàgines de " + TAMANO_PAGINA + " registres cadascuna</p><br>");
 out.print("<p class='resultado'>Mostrant la pàgina " + pagina + " de " + total_paginas + "</p>");
-
+out.print("<div id='paginacion'>");
 //out.print("<a href=VisualitzarCartes.jsp?pagina=2>"+2+"</a> ");
 if (total_paginas > 1) {
 	for (int i = 1; i <= total_paginas; i++) {
@@ -81,6 +81,7 @@ if (total_paginas > 1) {
 	out.print(" <a href=verCartas.jsp?pagina=" + i + ">" + i + "</a> ");
 	}
 }
+out.print("</div>");
 out.print("<div id='container'>");
 
 out.print("<div id='container-box'>");

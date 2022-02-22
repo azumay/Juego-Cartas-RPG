@@ -81,7 +81,6 @@ if (total_paginas > 1) {
 	out.print(" <a href=verCartas.jsp?pagina=" + i + ">" + i + "</a> ");
 	}
 }
-out.print("</div>");
 out.print("<div id='container'>");
 
 out.print("<div id='container-box'>");
