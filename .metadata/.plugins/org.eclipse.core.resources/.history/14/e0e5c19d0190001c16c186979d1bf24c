@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+	background-image: url("../img/fondo-web.jpg");
+	background-size: cover;
+	display: flex;
+	-moz-box-pack: start;
+	justify-content: flex-start;
+	flex-direction: column;
+	-moz-box-align: center;
+	align-items: center;
+	position: relative;
+	padding-bottom: 125px;
+	width: 100%;
+	overflow: hidden;
+}

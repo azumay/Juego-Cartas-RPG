@@ -1,0 +1,137 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap')
+;
+
+body {
+	background-image: url("../img/fondo-creacion-cartas.jpg");
+	background-size: cover;
+	display: flex;
+	-moz-box-pack: start;
+	justify-content: flex-start;
+	flex-direction: column;
+	-moz-box-align: center;
+	align-items: center;
+	position: relative;
+	padding-bottom: 125px;
+	width: 100%;
+	overflow: hidden;
+	font-family: 'Syne Tactile', cursive;
+}
+form{
+	width: 90%;
+}
+h1{
+	font-size: 20pt;
+	color: rgb(255, 255, 255);
+	text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.95885px
+		0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.14147px
+		1.99499px 0px, rgb(0, 0, 0) -0.83229px 1.81859px 0px, rgb(0, 0, 0)
+		-1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px,
+		rgb(0, 0, 0) -1.87291px -0.70157px 0px, rgb(0, 0, 0) -1.30729px
+		-1.5136px 0px, rgb(0, 0, 0) -0.42159px -1.95506px 0px, rgb(0, 0, 0)
+		0.56732px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px,
+		rgb(0, 0, 0) 1.92034px -0.55883px 0px;
+	
+}
+.tg {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.tg td {
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	overflow: hidden;
+	padding: 10px 5px;
+	word-break: normal;
+}
+
+.tg th {
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	overflow: hidden;
+	padding: 10px 5px;
+	word-break: normal;
+}
+
+.tg .tg-da2z {
+	border-color: inherit;
+	font-family: "Courier New", Courier, monospace !important;
+	font-weight: bold;
+	text-align: left;
+	vertical-align: top
+}
+
+.tg .tg-0pky {
+	border-color: inherit;
+	text-align: left;
+	vertical-align: top
+}
+
+.tg .tg-zh46 {
+	border-color: inherit;
+	font-family: "Courier New", Courier, monospace !important;
+	text-align: left;
+	vertical-align: top
+}
+
+
+/* CSS BOTONES */
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+.button-29 {
+	align-items: center;
+	appearance: none;
+	background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+	border: 0;
+	border-radius: 6px;
+	box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px
+		13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+	box-sizing: border-box;
+	color: #fff;
+	cursor: pointer;
+	display: inline-flex;
+	font-family: "JetBrains Mono", monospace;
+	height: 48px;
+	justify-content: center;
+	line-height: 1;
+	list-style: none;
+	overflow: hidden;
+	padding-left: 16px;
+	padding-right: 16px;
+	position: relative;
+	text-align: left;
+	text-decoration: none;
+	transition: box-shadow .15s, transform .15s;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	white-space: nowrap;
+	will-change: box-shadow, transform;
+	font-size: 18px;
+}
+
+.button-29:focus {
+	box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px,
+		rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+	box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px
+		13px -3px, #3c4fe0 0 -3px 0 inset;
+	transform: translateY(-2px);
+}
+
+.button-29:active {
+	box-shadow: #3c4fe0 0 3px 7px inset;
+	transform: translateY(2px);
+}

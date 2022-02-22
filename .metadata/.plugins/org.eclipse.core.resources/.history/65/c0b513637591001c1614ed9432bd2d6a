@@ -1,0 +1,62 @@
+body {
+	background-image: url("../img/fondo-creacion-cartas.jpg");
+	background-size: cover;
+	display: flex;
+	-moz-box-pack: start;
+	justify-content: flex-start;
+	flex-direction: column;
+	-moz-box-align: center;
+	align-items: center;
+	position: relative;
+	padding-bottom: 125px;
+	width: 100%;
+	overflow: hidden;
+}
+.tg {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.tg td {
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	overflow: hidden;
+	padding: 10px 5px;
+	word-break: normal;
+}
+
+.tg th {
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	overflow: hidden;
+	padding: 10px 5px;
+	word-break: normal;
+}
+
+.tg .tg-da2z {
+	border-color: inherit;
+	font-family: "Courier New", Courier, monospace !important;
+	font-weight: bold;
+	text-align: left;
+	vertical-align: top
+}
+
+.tg .tg-0pky {
+	border-color: inherit;
+	text-align: left;
+	vertical-align: top
+}
+
+.tg .tg-zh46 {
+	border-color: inherit;
+	font-family: "Courier New", Courier, monospace !important;
+	text-align: left;
+	vertical-align: top
+}

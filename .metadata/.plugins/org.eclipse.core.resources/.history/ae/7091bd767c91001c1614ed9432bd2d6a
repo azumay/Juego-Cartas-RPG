@@ -1,0 +1,6 @@
+var select1 = document.getElementById("select1");
+
+for (let i = 0, n = punts.length; i < n; i++) {
+	    var option = new Option(punts[i], punts[i]);
+	    select1.appendChild(option);
+	}

@@ -1,0 +1,23 @@
+function tirarDados6() {
+		    let valor = [0, 0, 0, 0, 0, 0];
+
+		    for (let i = 0; i < valor.length; i++) {
+		      valor[i] = parseInt(Math.random() * 15 + 3);
+		    }
+		    return valor;
+		  }
+
+
+var punts = [<%out.print(pers.punts[0]);%>, <%out.print(pers.punts[1]);%>, <%out.print(pers.punts[2]);%>, <%out.print(pers.punts[3]);%>, <%out.print(pers.punts[4]);%>, <%out.print(pers.punts[5]);%>];
+	console.log(punts);
+
+	var finals = {"s1":null,"s2":null,"s3":null,"s4":null,"s5":null,"s6":null};
+	console.log(finals);
+
+
+var select1 = document.getElementById("select1");
+
+for (let i = 0, n = punts.length; i < n; i++) {
+	    var option = new Option(punts[i], punts[i]);
+	    select1.appendChild(option);
+	}
